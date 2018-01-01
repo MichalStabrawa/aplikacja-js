@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Klasy tabela weterynarz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="tabela">
+        <input type="search" placeholder="szukaj">
+        <input type="button" value="szukaj" id="spr">
+        <table id="tabela1">
+            <tr>
+                <th>Id</th>
+                <th>imie</th>
+                <th>kolor</th>
+                <th>typ</th>
+                <th>czy ma ogon</th>
+            
+            </tr>
+
+        </table>
+    </div>
+    <div id="formularz">
+        <input type="hidden" name="id" id="id">
+        <input type="text" name="imie" id="name" placeholder="imie">
+        <input type="text" name="kolor" id="color" placeholder="kolor">
+        <select name="typ" id="typ">
+            <option value="pies">Pies</option>
+            <option value="kot">Kot</option>
+            <option value="lew">Lew</option>
+        </select>
+        <br>
+        <button id="confirmbutton">Zatwierdz</button>
+        <button id="delete">Wyczysc</button>
+
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
